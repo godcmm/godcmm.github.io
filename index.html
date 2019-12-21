@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prem online</title>
+	<meta charset="utf-8">
+	<!-- Bootstrap.css -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- csslink -->
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<!-- Bootstrap on Mobile -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- GoogleFont -->
+    <link href="https://fonts.googleapis.com/css?family=Prompt:400,700&display=swap" rel="stylesheet">
+</head>
+<body>  
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg justify-content-between fixed-top" id="container-nav">
+            <!--Nav left-->
+            <span class="nav-left d-flex-inline">
+                <a class="navbar-brand m-0 p-0"  href="index.html"><img src="img/Logo-1_rec_v2.jpg" height="40"></a>
+                <span class="navbar-text m-0 p-0"> " ครบเครื่อง..เรื่องหนังเทียม "</span>
+            </span>
+            <!-- Hamburger icon -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <!-- Nav right -->
+            <div class="nav-right collapse navbar-collapse" id="navbarToggler">
+                <span class="nav-right d-flex-inline">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">หน้าหลัก</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">สินค้า</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="article.html">บทความ</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="process.html">วิธีสั่งซื้อ-จัดส่ง</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">ติดต่อเรา</a></li>                  
+                    </ul>
+                </span>
+            </div>
+        </nav>
+
+        <!-- Jumbotron -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner-land-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner-land-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner-land-1.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Tagbelow -->
+        <div class="container-tagbelow">
+            <span class="boxbelow"><i class="fas fa-truck"></i>  ฟรี! ค่าจัดส่ง..เมื่อสั่งครบ 1,000 บาท</span>
+            <span class="boxbelow d-none d-md-inline"><i class="fas fa-user-shield"></i>  รับประกันสินค้า 7 วัน เปลี่ยนคืนได้</span>
+            <span class="boxbelow d-none d-md-inline"><i class="fas fa-coins"></i>  เก็บเงินปลายทางขั้นต่ำ 5,000 บาท</span>
+        </div>
+
+        <!-- All product -->
+        <div>
+            <span class="container-tabbox">
+                <span class="red-tab"></span>
+                <span class="text-tab">สินค้าทั้งหมด</span>
+            </span>
+        </div>    
+        <div class="container-flex-box">
+            <span class="product-box" style="background-image: url('./img/type-1.jpg');"><span class="product-box-text">หนังเทียม</span></span>
+            <span class="product-box" style="background-image: url('./img/type-2.jpg');"><span class="product-box-text">พรม</span></span>
+            <span class="product-box" style="background-image: url('./img/type-3.jpg');"><span class="product-box-text">ฟองน้ำ</span></span>
+            <span class="product-box" style="background-image: url('./img/type-4.jpg');"><span class="product-box-text">เบ็ดเตล็ด</span></span>
+            <span class="product-box" style="background-image: url('./img/type-5.jpg');"><span class="product-box-text">กาวและน้ำยา</span></span>
+            <span class="product-box" style="background-image: url('./img/type-1.jpg');"><span class="product-box-text">ยาง</span></span>
+            <span class="product-box" style="background-image: url('./img/type-2.jpg');"><span class="product-box-text">ผ้าขน</span></span>
+            <span class="product-box" style="background-image: url('./img/type-3.jpg');"><span class="product-box-text">ใยสังเคราะห์</span></span>
+            <span class="product-box" style="background-image: url('./img/type-4.jpg');"><span class="product-box-text">พลาสติกใส</span></span>
+            <span class="product-box" style="background-image: url('./img/type-5.jpg');"><span class="product-box-text">อุปกรณ์อื่นๆ</span></span>
+        </div>
+
+        <!-- Promotional product -->
+        <div>
+            <span class="container-tabbox">
+                <span class="red-tab"></span>
+                <span class="text-tab">สินค้าโปรโมชั่น</span>
+                <span class="btn-white"><span>ดูทั้งหมด</span></span>
+            </span>
+        </div>   
+        <div class="container-flex-box">
+            <a class="card" href="product-page.html">
+                <img class="card-img-top" src="img/product-1.JPG">
+                <div>
+                    <div class="container-card-detail">
+                        <span class="card-head">ลาย: หนังแท้</span>
+                        <span class="card-head">#87014</span>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="product-page.html">
+                <img class="card-img-top" src="img/product-1.JPG">
+                <div>
+                    <div class="container-card-detail">
+                        <span class="card-head">ลาย: หนังแท้</span>
+                        <span class="card-head">#87014</span>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="product-page.html">
+                <img class="card-img-top" src="img/product-1.JPG">
+                <div>
+                    <div class="container-card-detail">
+                        <span class="card-head">ลาย: หนังแท้</span>
+                        <span class="card-head">#87014</span>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="product-page.html">
+                <img class="card-img-top" src="img/product-1.JPG">
+                <div>
+                    <div class="container-card-detail">
+                        <span class="card-head">ลาย: หนังแท้</span>
+                        <span class="card-head">#87014</span>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="product-page.html">
+                <img class="card-img-top" src="img/product-1.JPG">
+                <div>
+                    <div class="container-card-detail">
+                        <span class="card-head">ลาย: หนังแท้</span>
+                        <span class="card-head">#87014</span>
+                    </div>
+                </div>
+            </a>
+            <a class="card d-inline d-md-none" href="product-page.html">
+                <img class="card-img-top" src="img/product-1.JPG">
+                <div>
+                    <div class="container-card-detail">
+                        <span class="card-head">ลาย: หนังแท้</span>
+                        <span class="card-head">#87014</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!--New Product -->
+        <div>
+            <span class="container-tabbox">
+                <span class="red-tab"></span>
+                <span class="text-tab">สินค้าใหม่</span>
+                <span class="btn-white"><span>ดูทั้งหมด</span></span>
+            </span>
+        </div>   
+        <div class="container-flex-box">
+            <a class="card" href="product-page.html">
+                <img class="card-img-top" src="img/product-1.JPG">
+                <div>
+                    <div class="container-card-detail">
+                        <span class="card-head">ลาย: หนังแท้</span>
+                        <span class="card-head">#87014</span>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="product-page.html">
+                <img class="card-img-top" src="img/product-1.JPG">
+                <div>
+                    <div class="container-card-detail">
+                        <span class="card-head">ลาย: หนังแท้</span>
+                        <span class="card-head">#87014</span>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="product-page.html">
+                <img class="card-img-top" src="img/product-1.JPG">
+                <div>
+                    <div class="container-card-detail">
+                        <span class="card-head">ลาย: หนังแท้</span>
+                        <span class="card-head">#87014</span>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="product-page.html">
+                <img class="card-img-top" src="img/product-1.JPG">
+                <div>
+                    <div class="container-card-detail">
+                        <span class="card-head">ลาย: หนังแท้</span>
+                        <span class="card-head">#87014</span>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="product-page.html">
+                <img class="card-img-top" src="img/product-1.JPG">
+                <div>
+                    <div class="container-card-detail">
+                        <span class="card-head">ลาย: หนังแท้</span>
+                        <span class="card-head">#87014</span>
+                    </div>
+                </div>
+            </a>
+            <a class="card d-inline d-md-none" href="product-page.html">
+                <img class="card-img-top" src="img/product-1.JPG">
+                <div>
+                    <div class="container-card-detail">
+                        <span class="card-head">ลาย: หนังแท้</span>
+                        <span class="card-head">#87014</span>
+                    </div>
+                </div>
+            </a>
+        </div>    
+        <div>
+            <span class="container-tabbox">
+                <span class="red-tab"></span>
+                <span class="text-tab">บทความ</span>
+                <span class="btn-white"><span>ดูทั้งหมด</span></span>
+            </span>
+        </div>   
+        <a class="container-flex-box" href="article-page.html">
+            <span class="article-box"><img src="img/Cover-article-1.jpg"></span>
+            <span class="article-box"><img src="img/Cover-article-2.jpg"></span>
+            <span class="article-box"><img src="img/Cover-article-3.jpg"></span>
+            <span class="article-box"><img src="img/Cover-article-4.jpg"></span> 
+        </a>
+        
+        <!-- Subscribe -->
+        <div class="container-subscribe d-flex flex-column flex-md-row">
+            <span class="text-subscribe">ติดตามข่าวสารจาก "ร้านเปรม" ได้ที่นี่</span>
+            <span style="width: 1em;"></span>
+            <form class="container-email"> 
+                <input class="input-email" type="email" placeholder="กรอกอีเมล" required name="subscribe-mail.php">
+                <button class="btn-email" type="submit">สมัคร</button>
+            </form>
+        </div>
+
+        <!-- Footer -->
+        <div class="container-footer d-flex">
+            <div class="box-footer">
+                <div class="text-footer-head">ความช่วยเหลือ</div>
+                <span class="text-footer-normal text-tworow">
+                    <div><a href="">การจัดส่งสินค้า</a></div>
+                    <div><a href="">การสั่งซื้อสินค้า</a></div>
+                    <div><a href="">การชำระเงิน</a></div>
+                    <div><a href="">การเปลี่ยน/คืนสินค้า</a></div>
+                    <div><a href="">ข้อตกลงและเงื่อนไข</a></div>
+                    <div><a href="">นโยบายความเป็นส่วนตัว</a></div>
+                </span>
+            </div>
+            <div class="box-footer">
+                <div class="text-footer-head">หมวดสินค้า</div>
+                <span class="text-footer-normal text-tworow">
+                    <div><a href="">หนังเทียม</a></div>
+                    <div><a href="">ยาง</a></div>
+                    <div><a href="">พรม</a></div>
+                    <div><a href="">ผ้าขน</a></div>
+                    <div><a href="">ฟองน้ำ</a></div>
+                    <div><a href="">ใยสังเคราะห์</a></div>
+                    <div><a href="">เบ็ดเตล็ดรถยนต์</a></div>
+                    <div><a href="">อุปกรณ์อื่นๆ</a></div>
+                    <div><a href="">กาวและน้ำยา</a></div>
+                    <div><a href="">พลาสติกใส</a></div>
+                    <div><a href="">โฟม</a></div>
+                    <div><a href="">อุปกรณ์ต่างๆ</a></div>
+                </span>
+            </div>
+            <div class="box-footer">
+                <div class="text-footer-head">ร้านค้าของเรา</div>
+                <span class="text-footer-normal">
+                        <p>ร้านเปรม พี.วี.ซี.</p>
+                        <p>431-433 ถ.เจ้าคำรพ แขวงป้อมปราบ เขตป้อมปราบ กรุงเทพฯ 10100</p>
+                        <p>เวลาเปิด-ปิด: จันทร์-ศุกร์ (08:00-17:30)</p>
+                </span>
+                <div class="container-btn-map">
+                    <div class="btn-map">
+                        <img src="icon/tran_GraphicMap.png"> ดูแผนที่
+                    </div>
+                    <div style="width: 1em;"></div>
+                    <div class="btn-map">
+                        <img src="icon/tran_googlemap.png"> ดูเส้นทาง
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ending contact -->
+        <div class="container-ending">
+            <div class="box-end-logo">
+                <img src="img/Logo-1_rec_v2.jpg">
+            </div>
+            <div class="box-end-social">
+                <img class="img-social" src="icon/Transparent_Facebook.png">
+                <img class="img-social" src="icon/Transparent_Line.png">
+                <img class="img-social" src="icon/Transparent_IG.png">
+                <img class="img-social" src="icon/Transparent_Email.png">
+            </div>
+            <div class="box-end-phone">
+                <img src="icon/tran-phone-white.png">
+                <span class="text-phone"> 02-221-4450</span>
+            </div>
+        </div>
+
+
+	
+	
+
+    <!-- jQuery.js / Popper.js / Bootstrap.js--><!-- <script src="js-9.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
